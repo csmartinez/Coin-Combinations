@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Coin Combination</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="coin-combination">
+        <div class="form-group">
+          <label for="amount">Enter an amount (in cents): </label>
+          <input id="amount" type="text" name="amount">
+        </div>
+        <button type="submit" class="btn">Enter</button>
+      </form>
+
+      <div id="result">
+        <p>You gave me: <span class="input-amount"></span> cents. The smallest number of coins:</p>
+        <ul>
+          <li>Quarters: <span class="quarter"><span></li>
+          <li>Dimes: <span class="dime"><span></li>
+          <li>Nickels: <span class="nickel"><span></li>
+          <li>Pennies: <span class="penny"><span></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
